@@ -269,3 +269,8 @@ p {
 .svg_black{
     fill:#f7f2ee;
 }
+@media screen and (min-width: 360px) and (max-width: 600px) {
+body{
+    
+}
+}
