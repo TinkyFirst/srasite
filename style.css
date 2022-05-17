@@ -273,4 +273,8 @@ p {
 body{
     width: 400px;
 }
+.stats__block{
+    display: block;
+    text-align: center;
+}
 }
