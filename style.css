@@ -271,7 +271,7 @@ p {
 }
 @media screen and (min-width: 360px) and (max-width: 600px) {
 body{
-    width: 400px;
+    max-width: 100%;
 }
 .stats__block{
     display: block;
