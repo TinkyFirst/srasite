@@ -5,8 +5,8 @@
     "background_color": "#f7f2ee",
     "display": "standalone",
     "orientation": "portrait",
-    "scope": ".",
-    "start_url": "/index.html",
+    "scope": "https://tinkyfirst.github.io/srasite/",
+    "start_url": "https://tinkyfirst.github.io/srasite/",
     "icons": [
     {
       "src": "img//maskable_icon_x48.png",
