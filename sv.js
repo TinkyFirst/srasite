@@ -1,41 +1,11 @@
-var CACHE_NAME = 'pwgen-cache-v1';
-var urlsToCache = [
-    './?v3',
-    'sw.js?v3',
-    'manifest.json?v3',
-    'style.css?v3',
-    'script.js?v3',
-    'logo.png?v3',
-    'logo_192.png?v3',
-    'logo_256.png?v3',
-    'logo_512.png?v3',
-];
-console.log('loading sw');
-
-self.addEventListener('install', function(event) {
-    // Perform install steps
-    console.log('installing sw');
-    event.waitUntil(
-        caches.open(CACHE_NAME)
-            .then(function(cache) {
-                console.log('Opened cache');
-                var x = cache.addAll(urlsToCache);
-                console.log('cache added');
-                return x;
-            })
-    );
-});
-
-self.addEventListener('fetch', function(event) {
-    event.respondWith(
-        caches.match(event.request)
-            .then(function(response) {
-                    // Cache hit - return response
-                    if (response) {
-                        return response;
-                    }
-                    return fetch(event.request);
-                }
-            )
-    );
-});
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js?v3', {
+        scope: '.' // THIS IS REQUIRED FOR RUNNING A PROGRESSIVE WEB APP FROM A NON_ROOT PATH
+    }).then(function(registration) {
+        // Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+        // registration failed :(
+        console.log('ServiceWorker registration failed: ', err);
+    });
+}
