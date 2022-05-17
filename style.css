@@ -270,11 +270,14 @@ p {
     fill:#f7f2ee;
 }
 @media screen and (min-width: 360px) and (max-width: 600px) {
-body{
-    max-width: 100%;
-}
+
 .stats__block{
     display: block;
     text-align: center;
+    width: 100%;
+}
+.settigs_block{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 }

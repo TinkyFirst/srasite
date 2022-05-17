@@ -34,7 +34,7 @@ const closeMenu = () => {
   burgerMenu.style.display = "block";
   displayContent.style.display = "block";
   bannedSitesContent.style.display = "none";
-  statsBlock.style.display = "flex";
+  statsBlock.style.display = "block";
   appHeading.style.display = "block";
   settingsBlock.style.display = "none";
 
