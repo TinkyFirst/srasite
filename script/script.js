@@ -309,4 +309,4 @@ for (var i=0; i<urls.length; i++) {
   `;
 }
 
-// myModal.toggle();
+myModal.toggle();
