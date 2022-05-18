@@ -37,6 +37,7 @@ const closeMenu = () => {
   statsBlock.style.display = "block";
   appHeading.style.display = "block";
   settingsBlock.style.display = "none";
+  downloadBlock.style.display = "none";
 
 }
 const openBannedSited = () => {
