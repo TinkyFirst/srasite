@@ -96,11 +96,14 @@ h4 {
 }
 
 td {
-    color: #3d2922
+    color: #b85736;
 }
 
 .requests {
-    color: #3d2922
+    color: #b85736;
+}
+h4{
+    color: #b85736;
 }
 
 .container {
@@ -335,7 +338,10 @@ body{
     font-size: 28px;
 }
 .button{padding: 0;}
-}
 .img{
     padding-top: 4px;
+}
+.white{
+    color:white;
+}
 }
