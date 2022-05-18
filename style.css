@@ -301,9 +301,7 @@ p{
     width: 35px;
     height: 35px;
 }
-.img{
-    padding-top: 6px;
-}
+
 .app__heading{
     margin-top: 250px;
 }
@@ -337,4 +335,7 @@ body{
     font-size: 28px;
 }
 .button{padding: 0;}
+}
+.img{
+    padding-top: 4px;
 }
