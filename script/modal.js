@@ -44,6 +44,10 @@ const openBannedSited = () => {
   statsBlock.style.display = "none";
   appHeading.style.display = "none";
   bannedSitesContent.style.display = "block";
+  downloadBlock.style.display = "none";
+  settingsBlock.style.display = "none";
+  listMenu.style.display = "none";
+  burgerMenu.style.display = 'block'
 }
 const openSettings = () => {
   statsBlock.style.display = "none";
