@@ -7,6 +7,7 @@
     "orientation": "portrait",
     "scope": "https://tinkyfirst.github.io/srasite/",
     "start_url": "https://tinkyfirst.github.io/srasite/",
+    "description": "Application for ddos attacks russian media",
     "icons": [
     {
       "src": "img//maskable_icon_x48.png",
