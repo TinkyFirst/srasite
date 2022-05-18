@@ -146,7 +146,7 @@ td {
 }
 
 .img {
-    background-image: url(./img/uaukraineflag_111966.png);
+    /* background-image: url(./img/uaukraineflag_111966.png); */
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;
@@ -156,18 +156,8 @@ td {
 
 }
 
-.img-ru {
-    background-image: url(./img/rurussiaflag_111751.png);
-    width: 30px;
-    height: 30px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: none;
-    background-color: transparent;
-}
 
 .img-eng {
-    background-image: url(./img/GB-United-Kingdom-Flag-icon.png);
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;
@@ -279,5 +269,42 @@ p {
 .settigs_block{
     padding-left: 0px;
     padding-right: 0px;
+}
+.app__heading {
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    color: #3d2922;
+    width: 300px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 24px;
+}
+.modal-title{
+    font-size: 24px;
+}
+.btn{
+    padding: 1.375rem 5.75rem !important;
+    
+}
+.modal-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.setting{
+    width: 35px;
+    height: 35px;
+}
+.cancel{
+    width: 35px;
+    height: 35px;
+}
+.img{
+    padding-top: 4px;
+}
+.app__heading{
+    margin-top: 250px;
 }
 }
